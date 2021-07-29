@@ -1,0 +1,283 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+ */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header styles start  */
+header {
+    background: #264653;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #E76F51 !important;
+}
+
+.active {
+    color: #E76F51 !important;
+}
+
+.login {
+    padding: 5px 20px !important;
+    background: #E76F51;
+    transition: 0.3s;
+    border: 2px solid #E76F51;
+    font-size: 16px;
+}
+
+.login:hover {
+    background: black;
+}
+
+/* Header styles end  */
+
+/* Home section styles start  */
+#home {
+    background: #264653;
+}
+
+.mini-home-title {
+    font-weight: 300;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.huge-home-title {
+    font-weight: 600;
+    /* font-size: 48px; */
+    line-height: 72px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+
+.home-desc {
+    font-weight: 300;
+    line-height: 24px;
+    color: #E0E0E0;
+    max-width: 456px;
+    margin-bottom: 21px;
+}
+
+.purchase-btn {
+    color: white;
+    background: #E76F51;
+    padding: 5px 20px !important;
+    border: 2px solid #E76F51;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.purchase-btn:hover {
+    background: black;
+    color: white;
+    color: #E76F51;
+}
+
+/* Home section styles end  */
+
+/* Featured bike section styles start  */
+.section-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.best-collection {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    color: #E76F51;
+    margin: 0;
+    position: relative;
+}
+
+.best-collection::after {
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 2px;
+    background-color: #E76F51;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+.img-greyScale {
+    filter: grayscale(100%);
+}
+
+.readMore-btn {
+    color: #E76F51 !important;
+    background: #ffffff;
+    padding: 5px 20px !important;
+    border: 2px solid #E76F51;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.activeBtn {
+    color: white !important;
+    background: #E76F51;
+}
+
+.readMore-btn:hover {
+    background: #E76F51;
+    color: white !important;
+}
+
+.card-title {
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 32px;
+    color: #6C6C6C;
+    margin-bottom: 40px;
+}
+
+.card-wrapper .col {
+    width: 47%;
+}
+
+/* Featured bike section styles end  */
+
+
+/* top brands styles starts */
+.topbrand .col {
+   height: 100px;
+   width: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   border-radius: 5px;
+   margin-top: 50px;
+}
+.topbrand .col img {
+   height: 100px;
+   width: auto;
+}
+
+/* top brands styles ends */
+
+
+/* Happy Clients Section styles start */
+.inner-title {
+    color: #E76F51 !important;
+}
+
+.client-image {
+    padding: 30px 50px;
+}
+
+#clients .card-text {
+    line-height: 26px;
+}
+
+.stars li {
+    margin: 0 2.5px;
+}
+
+.stars li i {
+    color: #E76F51 !important;
+}
+
+.client-name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #23A6F0 !important;
+}
+
+.client-profession {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42 !important;
+}
+
+/* Happy Clients Section styles ends */
+
+/* FAQ Section styles start */
+.accordion-item {
+    border: 1px solid #ddd !important;
+    margin-bottom: 13px;
+    border-radius: 5px !important;
+    overflow: hidden;
+}
+
+.accordion-button {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #383838;
+}
+
+.accordion-body {
+    color: #7E848C;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* FAQ Section styles ends */
+
+/* footer styles start */
+footer {
+    background-color: #000;
+}
+
+footer ul li {
+    margin-right: 24px;
+}
+
+
+footer ul li a {
+    text-decoration: none !important;
+    font-family: Manrope;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.get-app {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D9DBE1;
+    width: 133px !important;
+}
+
+/* footer styles end */
