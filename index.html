@@ -14,10 +14,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- Custom Css -->
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        #pre-loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: 1000000;
+            overflow-y: hidden;
+        }
+
+        #pre-loader img {
+            width: 100%;
+        }
+
+    </style>
 </head>
 
-<body>
+<body onload="preloader ()">
     <!-- Header section starts -->
+    <div class="" id="pre-loader">
+        <img src="./images/preloader.gif">
+    </div>
     <header class="py-2 sticky-lg-top w-100">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
@@ -184,7 +203,8 @@
         <section id="top-brands" class="my-5">
             <div class="container">
                 <h2 class="section-title text-center fs-2 mb-2">Choose Bikes By</h2>
-                <div class="row topbrand row-cols-1  row-cols-sm-2 row-cols-md-3 row-cols-lg-4  row-cols-xl-5  d-flex justify-content-center">
+                <div
+                    class="row topbrand row-cols-1  row-cols-sm-2 row-cols-md-3 row-cols-lg-4  row-cols-xl-5  d-flex justify-content-center">
                     <div class="col me-3 d-flex flex-column shadow">
                         <div class=""> <img src="./images/brands/bajaj.jpg" alt=""></div>
                         <div class=""> <a class="btn btn-danger py-1 px-4 text-white text-decoration-none "
@@ -497,6 +517,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+    <script src="app.js"></script>
 </body>
 
 </html>
